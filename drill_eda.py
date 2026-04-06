@@ -54,6 +54,7 @@ def main():
 
 
     cols_to_plot = ['quantity', 'unit_price', 'quantity', 'unit_price']
+    plot_distributions(df, cols_to_plot, "output/distributions.png")
     print("Success: distributions.png is now in the output folder!")
 
 
